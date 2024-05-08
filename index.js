@@ -1,5 +1,4 @@
 const express = require("express");
-const cors = require("cors");
 const mongoose = require("mongoose");
 const LoggingService = require("./middlewares/loggingService");
 
@@ -19,8 +18,6 @@ mongoose
     loggingService.logError(error);
   });
 
-// Cors
-app.use(cors({ origin: process.env.CORS_URI, credentials: true }));
 
 app.get("/", function (req, res) {
   res.send("server is working");
