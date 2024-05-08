@@ -2,6 +2,10 @@
 
 This repository contains a Node.js Express server with authentication functionality using JWT tokens and logging capabilities.
 
+
+
+#### Deployed Link => [https://rekonsiletestserver.onrender.com](https://rekonsiletestserver.onrender.com)
+
 ## Installation
 
 Clone the repository:
