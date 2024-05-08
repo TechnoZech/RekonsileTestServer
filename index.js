@@ -32,7 +32,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(loggingService.logRequest.bind(loggingService));
 
 // Requiring routes
-const auth = require("./routes/auth");
+const auth = require("./Routes/auth");
 app.use(auth);
 
 // Middleware to log response
