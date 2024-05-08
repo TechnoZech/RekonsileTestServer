@@ -8,3 +8,6 @@
 [2024-05-08T18:57:15.944Z] [INFO] GET /protected
 [2024-05-08T18:57:24.689Z] [INFO] server started on port 8080
 [2024-05-08T18:57:25.256Z] [INFO] db Connected!
+[2024-05-08T19:02:16.272Z] [INFO] server started on port 8080
+[2024-05-08T19:02:16.869Z] [INFO] db Connected!
+[2024-05-08T19:02:39.273Z] [INFO] POST /auth/login
