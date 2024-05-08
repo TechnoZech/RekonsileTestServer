@@ -2,11 +2,12 @@ const express = require("express");
 const mongoose = require("mongoose");
 const LoggingService = require("./middlewares/loggingService");
 
-// Initialize logging service
-const loggingService = new LoggingService(process.env.LOG_LEVEL);
 
 const app = express();
 require("dotenv").config();
+
+// Initialize logging service
+const loggingService = new LoggingService(process.env.LOG_LEVEL);
 
 // Database connection using Mongoose
 mongoose
