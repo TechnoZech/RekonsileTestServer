@@ -1,0 +1,10 @@
+[2024-05-08T18:54:31.440Z] [INFO] server started on port 8080
+[2024-05-08T18:54:32.044Z] [INFO] db Connected!
+[2024-05-08T18:54:54.044Z] [INFO] POST /auth/login
+[2024-05-08T18:55:17.453Z] [INFO] GET /protected
+[2024-05-08T18:56:56.984Z] [INFO] server started on port 8080
+[2024-05-08T18:56:57.559Z] [INFO] db Connected!
+[2024-05-08T18:57:11.044Z] [INFO] GET /protected
+[2024-05-08T18:57:15.944Z] [INFO] GET /protected
+[2024-05-08T18:57:24.689Z] [INFO] server started on port 8080
+[2024-05-08T18:57:25.256Z] [INFO] db Connected!
