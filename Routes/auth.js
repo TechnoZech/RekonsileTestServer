@@ -29,6 +29,7 @@ router.post("/auth/signup", async (req, res) => {
 	// Check if user already exists
 	const existingUser = await User.findOne({ email });
 	if (existingUser) {
+		console.log("User already exists")
 		return res.status(400).json({ message: "User already exists" });
 	}
 	// Hash password
@@ -41,7 +42,7 @@ router.post("/auth/signup", async (req, res) => {
 
 // Login route
 router.post("/auth/login", async (req, res) => {
-	const { email, password } = req.body;
+	const { email, password } = req.body.userData;
 	if (
 		!email ||
 		!password ||

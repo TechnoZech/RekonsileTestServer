@@ -23,3 +23,100 @@
 [2024-05-08T19:15:45.726Z] [INFO] db Connected!
 [2024-05-08T19:17:08.545Z] [INFO] server started on port 8080
 [2024-05-08T19:17:09.110Z] [INFO] db Connected!
+[2024-05-08T19:46:14.615Z] [INFO] server started on port 8080
+[2024-05-08T19:46:15.169Z] [INFO] db Connected!
+[2024-05-08T20:15:17.126Z] [INFO] server started on port 8080
+[2024-05-08T20:15:17.735Z] [INFO] db Connected!
+[2024-05-08T20:15:31.200Z] [INFO] POST /auth/login
+[2024-05-08T20:15:42.715Z] [INFO] POST /auth/signup
+[2024-05-08T20:15:49.169Z] [INFO] POST /auth/login
+[2024-05-09T06:59:15.592Z] [INFO] server started on port 8080
+[2024-05-09T06:59:16.224Z] [INFO] db Connected!
+[2024-05-09T07:35:24.102Z] [INFO] server started on port 8080
+[2024-05-09T07:35:24.814Z] [INFO] db Connected!
+[2024-05-09T07:36:21.461Z] [INFO] POST /signup
+[2024-05-09T07:36:21.466Z] [INFO] Response Status Code: 404
+[2024-05-09T07:36:49.616Z] [INFO] POST /auth/signup
+[2024-05-09T07:37:10.126Z] [INFO] POST /auth/signup
+[2024-05-09T07:37:37.168Z] [INFO] POST /auth/signup
+[2024-05-09T07:38:26.512Z] [INFO] POST /auth/signup
+[2024-05-09T07:39:50.738Z] [INFO] POST /auth/signup
+[2024-05-09T07:40:06.717Z] [INFO] server started on port 8080
+[2024-05-09T07:40:07.328Z] [INFO] db Connected!
+[2024-05-09T07:40:10.331Z] [INFO] POST /auth/signup
+[2024-05-09T07:40:19.063Z] [INFO] server started on port 8080
+[2024-05-09T07:40:19.612Z] [INFO] db Connected!
+[2024-05-09T07:40:46.425Z] [INFO] POST /auth/signup
+[2024-05-09T07:43:29.444Z] [INFO] server started on port 8080
+[2024-05-09T07:43:30.394Z] [INFO] server started on port 8080
+[2024-05-09T07:43:30.969Z] [INFO] db Connected!
+[2024-05-09T07:43:42.453Z] [INFO] POST /auth/signup
+[2024-05-09T07:44:06.990Z] [INFO] server started on port 8080
+[2024-05-09T07:44:07.546Z] [INFO] db Connected!
+[2024-05-09T07:44:27.956Z] [INFO] POST /auth/signup
+[2024-05-09T07:44:28.142Z] [ERROR] Error: Unhandled Promise Rejection at: [object Promise]. Reason: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }
+    at process.<anonymous> (D:\Development\Reconsile task\rekonsile server\Middlewares\loggingService.js:45:21)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/process/promises:150:20)
+    at processPromiseRejections (node:internal/process/promises:284:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+[2024-05-09T07:45:21.204Z] [INFO] server started on port 8080
+[2024-05-09T07:45:21.807Z] [INFO] db Connected!
+[2024-05-09T07:45:52.822Z] [INFO] POST /auth/signup
+[2024-05-09T07:45:53.002Z] [ERROR] Error: Unhandled Promise Rejection at: [object Promise]. Reason: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }
+    at process.<anonymous> (D:\Development\Reconsile task\rekonsile server\Middlewares\loggingService.js:45:21)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/process/promises:150:20)
+    at processPromiseRejections (node:internal/process/promises:284:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+[2024-05-09T07:46:45.002Z] [INFO] POST /auth/signup
+[2024-05-09T07:46:45.173Z] [ERROR] Error: Unhandled Promise Rejection at: [object Promise]. Reason: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: null }
+    at process.<anonymous> (D:\Development\Reconsile task\rekonsile server\Middlewares\loggingService.js:45:21)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/process/promises:150:20)
+    at processPromiseRejections (node:internal/process/promises:284:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+[2024-05-09T07:52:18.869Z] [INFO] server started on port 8080
+[2024-05-09T07:52:19.525Z] [INFO] db Connected!
+[2024-05-09T07:52:39.990Z] [INFO] POST /auth/signup
+[2024-05-09T07:53:31.145Z] [INFO] POST /auth/signup
+[2024-05-09T07:54:55.612Z] [INFO] server started on port 8080
+[2024-05-09T07:54:56.181Z] [INFO] db Connected!
+[2024-05-09T07:55:06.815Z] [INFO] POST /auth/signup
+[2024-05-09T07:56:05.091Z] [INFO] POST /auth/signup
+[2024-05-09T07:58:46.854Z] [INFO] POST /auth/signup
+[2024-05-09T07:59:49.798Z] [INFO] POST /auth/signup
+[2024-05-09T08:02:23.492Z] [INFO] server started on port 8080
+[2024-05-09T08:02:24.105Z] [INFO] db Connected!
+[2024-05-09T08:02:36.772Z] [INFO] POST /auth/login
+[2024-05-09T08:02:55.535Z] [INFO] server started on port 8080
+[2024-05-09T08:02:56.098Z] [INFO] db Connected!
+[2024-05-09T08:03:03.378Z] [INFO] server started on port 8080
+[2024-05-09T08:03:03.923Z] [INFO] db Connected!
+[2024-05-09T08:03:09.377Z] [INFO] POST /auth/login
+[2024-05-09T08:03:19.078Z] [INFO] server started on port 8080
+[2024-05-09T08:03:19.637Z] [INFO] db Connected!
+[2024-05-09T08:06:49.963Z] [INFO] POST /auth/login
+[2024-05-09T08:07:00.038Z] [INFO] POST /auth/login
+[2024-05-09T08:07:31.143Z] [INFO] POST /auth/login
+[2024-05-09T08:07:45.602Z] [INFO] POST /auth/login
+[2024-05-09T08:09:08.796Z] [INFO] POST /auth/login
+[2024-05-09T08:09:43.917Z] [INFO] POST /auth/login
+[2024-05-09T08:15:29.601Z] [INFO] POST /auth/login
+[2024-05-09T08:16:37.573Z] [INFO] POST /auth/login
+[2024-05-09T08:27:15.596Z] [INFO] GET /verify-token
+[2024-05-09T08:27:15.603Z] [INFO] Response Status Code: 404
+[2024-05-09T08:27:33.709Z] [INFO] GET /protected
+[2024-05-09T08:27:43.258Z] [INFO] GET /protected
+[2024-05-09T08:59:39.069Z] [INFO] POST /auth/login
+[2024-05-09T08:59:41.247Z] [INFO] GET /protected
+[2024-05-09T08:59:45.702Z] [INFO] GET /protected
+[2024-05-09T09:00:02.711Z] [INFO] GET /protected
+[2024-05-09T09:00:06.699Z] [INFO] GET /protected
+[2024-05-09T09:00:21.888Z] [INFO] GET /protected
+[2024-05-09T09:01:15.704Z] [INFO] GET /protected
+[2024-05-09T09:01:31.903Z] [INFO] POST /auth/login
+[2024-05-09T09:01:33.068Z] [INFO] GET /protected
+[2024-05-09T09:01:46.010Z] [INFO] GET /protected
+[2024-05-09T09:09:45.034Z] [INFO] server started on port 8080
+[2024-05-09T09:09:45.660Z] [INFO] db Connected!
